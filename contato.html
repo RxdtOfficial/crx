@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - CRX Estratégia & Relacionamento</title>
+    <link rel="icon" href="./logo_crx.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./logo_crx.png" alt="CRX Logo">
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="quem-somos.html">Quem Somos</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="modelos.html">Modelos de Atuação</a>
+                <a href="metodologia.html">Metodologia</a>
+                <a href="conteudo.html">Conteúdo</a>
+                <a href="contato.html" class="btn btn-primary" style="padding: 10px 20px; color: #fff;">Diagnóstico</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header" style="padding-bottom: 200px;">
+        <div class="container reveal">
+            <h1>Estruture Seu <span style="color: var(--green);">Crescimento</span></h1>
+            <p>Nossa equipe de especialistas está pronta para mapear os gargalos da sua operação.</p>
+        </div>
+    </header>
+
+    <!-- Form Section -->
+    <section style="margin-top: -150px; padding-top: 0;">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto;" class="reveal">
+                <form action="#" method="POST" class="contact-form">
+                    <h2 style="font-size: 2rem; margin-bottom: 32px; text-align: center;">Solicitar Diagnóstico</h2>
+                    
+                    <div class="grid-2" style="gap: 24px;">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" class="form-control" placeholder="Como podemos chamar você?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="whatsapp">WhatsApp / Celular</label>
+                            <input type="tel" id="whatsapp" name="whatsapp" class="form-control" placeholder="(00) 00000-0000" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa" class="form-control" placeholder="Instituição que você representa" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="objetivo">Principal Objetivo</label>
+                        <textarea id="objetivo" name="objetivo" class="form-control" placeholder="Em poucas palavras, qual é a maior dor comercial ou o gargalo que você pretende resolver?" required></textarea>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 40px;">
+                        <button type="submit" class="btn btn-primary" style="font-size: 1.15rem; padding: 18px 48px; width: 100%;">Quero estruturar meu crescimento</button>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 16px;">Seus dados estão seguros. Nossa equipe fará a tratativa com confidencialidade total.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col" style="max-width: 300px;">
+                    <img src="./logo_crx.png" alt="CRX Logo" style="height: 48px; filter: brightness(0) invert(1); margin-bottom: 24px;">
+                    <p>Transformamos relacionamento em crescimento previsível, utilizando estratégia, inovação e dados.</p>
+                </div>
+                <!-- ... -->
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <div class="footer-links">
+                        <a href="#"><i class="fab fa-whatsapp" style="margin-right: 8px;"></i> Fale via WhatsApp</a>
+                        <a href="#"><i class="far fa-envelope" style="margin-right: 8px;"></i> contato@crx.com.br</a>
+                        <a href="#"><i class="fab fa-instagram" style="margin-right: 8px;"></i> Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CRX Estratégia & Relacionamento. Todos os direitos reservados. Grupo CRN & RXDT.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
